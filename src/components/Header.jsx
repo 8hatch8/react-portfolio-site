@@ -12,7 +12,7 @@ export const Header = () => {
             {/*カバー画像*/}
             <div className="profile-thumb" style={{ backgroundImage: `url(${ProfileImage})` }} ></div>
             <h1 className="title-text">yutaka</h1>
-            <h3 className="title-text">Engineer</h3>
+            <h3 className="title-text">I'm looking for a job as an engineer in Sendai.</h3>
             <ul className="social-icons">
               <li className="icon-link">
                 <a href="https://twitter.com/yutaka_pg">

@@ -1,7 +1,7 @@
 body {
   font-family: Arial, serif;
   font-weight: 400;
-  font-style: 32px;
+  font-size: 32px;
   line-height: 1.7;
   color: #4d4d4d;
   background: #fff;
@@ -9,18 +9,19 @@ body {
 
 h1 {
   margin: 0;
-  font-style: 48px;
+  font-size: 48px;
 }
 
 h2 {
-  font-style: 32px;
+  font-size: 32px;
 }
 
 h3 {
   margin: 0;
-  font-style: 16px;
+  font-size: 16px;
 }
 
+/* Header */
 .main-cover {
   background-color: transparent;
   background-size: cover;
@@ -74,11 +75,11 @@ h3 {
 }
 
 .container {
-  width: 1170px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  box-sizing: border-box;
 }
 
 .display-table {
@@ -101,4 +102,55 @@ h3 {
 
 .icon-link {
   position: relative;
+}
+
+/* Skills */
+#skills {
+  padding: 128px 0;
+  clear: both;
+}
+
+.heading {
+ margin-bottom: 32px;
+ text-align: center;
+}
+
+.skills-container {
+ display: flex;
+ flex-wrap: wrap;
+ text-align: center;
+}
+
+/* Contact */
+#contact {
+  padding: 128px 0;
+  clear: both;
+}
+
+.contact {
+ background: #30BFBA;
+}
+
+.contact-contents {
+ color: white;
+ text-align: center;
+}
+
+.description {
+ font-size: 20px;
+}
+
+.btn {
+ font-family: "Space Mono", Arial, serif;
+ font-size: 16px;
+ border: none !important;
+ border-radius: 30px;
+ padding: 16px 64px;
+ text-decoration: none;
+}
+
+#contact .btn {
+ height: 54px;
+ background: #fff;
+ color: #30BFBA;
 }
