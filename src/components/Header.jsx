@@ -5,7 +5,8 @@ import ProfileImage from '../images/profile.jpg';
 export const Header = () => {
   return (
     <header className='main-cover' style={{ backgroundImage: `url(${CoverImage})` }}>
-      <div className="overlay"></div> {/*背景要素*/}
+      {/*背景要素*/}
+      <div className="overlay"></div>
       <div className="container">
         <div className="display-table">
           <div className="display-table-contents">

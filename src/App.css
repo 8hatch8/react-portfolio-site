@@ -117,8 +117,13 @@ h3 {
 
 .skills-container {
  display: flex;
+ justify-content: center;
  flex-wrap: wrap;
  text-align: center;
+}
+
+.skill-item {
+  margin: 0 48px;
 }
 
 /* Contact */
