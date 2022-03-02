@@ -1,4 +1,3 @@
-import { FaRegLaughWink } from 'react-icons/fa';
 import { requestStates } from '../constants';
 
 export const actionTypes = {
